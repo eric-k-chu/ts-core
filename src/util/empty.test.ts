@@ -27,7 +27,7 @@ describe('empty', () => {
     { input: [1, 2, 3], expected: false },
   ]
 
-  test.each(cases)('should return %p for %p', ({ input, expected }) => {
+  test.each(cases)('%p', ({ input, expected }) => {
     expect(isEmpty(input)).toBe(expected)
   })
 })
