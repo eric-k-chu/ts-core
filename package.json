@@ -1,0 +1,24 @@
+{
+  "name": "@kiyuen/ts-core",
+  "version": "1.0.0",
+  "description": "typescript library for common utility functions",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "kiyuen",
+    "url": "https://kiyuen.dev"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@kiyuen/config": "1.0.0",
+    "@types/bun": "^1.2.3",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  }
+}

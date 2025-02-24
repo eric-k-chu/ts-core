@@ -1,0 +1,21 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "always",
+    "source.organizeImports.biome": "always",
+    "source.removeUnusedImports": "always",
+    "source.addMissingImports.ts": "always",
+    "quickFix.biome": "always",
+    "source.sortImports": "always"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/out/**": true,
+    "**/.next/**": true,
+  }
+}
